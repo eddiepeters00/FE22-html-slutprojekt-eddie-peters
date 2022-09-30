@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"
+        defer></script>
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid space">
+                <div class="logo">
+                    <a href="../index.html" class="navbar-brand">Eddie Peters</a>
+                </div>
+                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu"
+                    class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse menu" id="navbar-menu">
+                    <ul class="navbar-nav">
+                        <li><a href="./about.html" class="nav-link hlink">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle hlink" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Projects</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item link" href="./droneZone.html"
+                                        data-text="DroneZone">DroneZone</a></li>
+                                <li><a class="dropdown-item link" href="./social-media-app.html"
+                                        data-text="Social-media app">Social-media app</a></li>
+                                <li><a class="dropdown-item link" href="./google-replica.html"
+                                        data-text="Google replica">Google replica</a></li>
+                                <li><a class="dropdown-item link" href="./chat-app.html" data-text="Chat app">Chat
+                                        app</a></li>
+                            </ul>
+                        <li><a href="./contact.html" class="nav-link hlink">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="form-container">
+            <form action="send">
+                <h3>Contact me!</h3>
+
+                <div class="inputbox">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" required>
+                </div>
+
+
+                <div class="inputbox">
+                    <label for="tel">Tel:</label>
+                    <input id="tel" type="tel">
+                </div>
+
+                <div class="inputbox">
+                    <label for="email">Email:</label>
+                    <input type="email" required>
+                </div>
+
+                <div class="textbox">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="10" rows="5" required></textarea>
+                </div>
+
+                <input class="send-btn" type="button" value="Send">
+            </form>
+        </section>
+
+        <section class="social-media-box">
+            <aside class="social-media-flex-container">
+                <div>
+                    <a href="https://www.facebook.com/eddie.peters.5030/" class="fa fa-facebook"></a>
+                </div>
+                <div>
+                    <a href="https://github.com/eddiepeters00/-FE22-html-mp2-eddie-peters" class="fa fa-github"></a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/eddie-peters-b01956236/" class="fa fa-linkedin"></a>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-grid-container">
+            <article>
+                <h4>Contact</h4>
+                <p>eddie.peters00@outlook.com</p>
+                <p>073-6104977</p>
+            </article>
+
+            <article>
+                <h4>Socials</h4>
+                <a class="social-media-links" href="https://www.facebook.com/eddie.peters.5030/">Facebook</a>
+                <a class="social-media-links"
+                    href="https://github.com/eddiepeters00/-FE22-html-mp2-eddie-peters">Github</a>
+                <a class="social-media-links" href="https://www.linkedin.com/in/eddie-peters-b01956236/">Linkedin</a>
+            </article>
+        </section>
+    </footer>
+</body>
+
+</html>
